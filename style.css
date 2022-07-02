@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "TTlakes";
+    src: url("fonts/TTLakes-Thin.woff");
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+body{
+    width: 320px;
+    font-family: 'TTLakes', sans-serif;
+   
+}
+header{
+    height: 88px;
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+}
+section{
+    background-color: #F8F8F8;
+    margin-top: 0px;
+}
+
+nav{
+    display: flex;
+}
+
+h1{
+    font-weight: bold;
+    width: 288px;
+    height: 40px;
+    font-size: 28px;
+    line-height: 40px;
+    color: #1B1C21;
+}
+
+
+
+
+/*
+Иконки хедера 
+*/
+.stripe-1{
+    height: 2px;
+    width: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 1px;
+}
+.stripe-2{
+    width: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 1px;
+}
+.stripe-3{
+    width: 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 1px;
+}
+
+.icon-2+div{
+    margin-top: 25px;
+}
+
+.icon{
+    margin-left: 16px;
+    margin-top: 22px;
+}
+
+.icon:not(:nth-child(n+2):nth-child(-n+3))
+{
+ width: 40px;
+ height: 40px;
+ background-color: #FF3E79;
+ border-radius: 50%;
+}
+
+.horizontal-stripe{
+    border-left: 2px solid #EAEAEA;
+    height: 32px;
+}
+
+.icon-4{
+    margin-right: 16px;
+}
+
+.icon-4 img{
+    margin-left: 12px;
+}
+
+.icon-2{
+    margin-top: 5px;
+    width: 90px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+
+
+
+
+
+.zag img{
+    display: inline;
+    margin-top: 24px;
+}
+
+.zag h1{
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+
+header img{
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+
+
+
+.horizontal-scroll{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-scroll-bottom:not(:nth-child(1)){
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+.bottom-selection{
+    box-sizing: border-box;
+    width: 246px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin-left: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 9px;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+
+.zag p{
+    margin: 24px 16px 16px 16px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1B1C21;
+}
+
+.Next-text{
+ position: absolute;
+ display:inline;
+ margin-left: 24px;
+ margin-bottom: 16px;
+}
+
+.Next-text span{
+ margin-left: 16px;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: bold;   
+}
+
+.image{
+    
+    padding: 37px 0px 27px 0px; 
+    margin: auto;
+    
+}
